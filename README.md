@@ -17,6 +17,7 @@ If not, refer to the Docker installation [here](https://docs.docker.com/get-dock
 `> docker compose -p backend-hex-dev -f docker/docker-compose.yml up -d --build`
 
 For developers on MAC you could use:
+
 `> make up`
 
 You can now start the development and your local application will be available here: http://localhost:8098
@@ -26,6 +27,7 @@ You can now start the development and your local application will be available h
 `> docker compose -p backend-hex-dev -f docker/docker-compose.yml down`
 
 For developers on MAC you could use:
+
 `> make down`
 
 ## Production (simulation)
@@ -37,6 +39,7 @@ You could perhaps set up a local SSL and use this container to simulate running 
 `> docker compose -p backend-hex-prod -f docker/docker-compose-prod.yml up -d --build`
 
 For developers on MAC you could use:
+
 `> make prod-up`
 
 You can now start the development and your local application will be available here: http://localhost:8099/
@@ -46,4 +49,5 @@ You can now start the development and your local application will be available h
 `> docker compose -p backend-hex-prod -f docker/docker-compose-prod.yml down`
 
 For developers on MAC you could use:
+
 `> make prod-down`
