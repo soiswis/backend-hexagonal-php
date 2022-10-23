@@ -1,7 +1,7 @@
 
-# Backend Hexagonal in PHP
+# Backend Hexagonal Architecture (Ports & Adapters) in PHP
 
-Backend Hexagonal application is an attempt to apply my understanding of Hexagonal architecture (Ports and Adapters) style in PHP. Lots of improvements can be done of course (i.e. introducing CI and autowiring.. etc).
+Backend Hexagonal Architecture (Ports & Adapters) application is an attempt to apply my understanding of Hexagonal architecture (Ports and Adapters) style in PHP. Lots of improvements can be done of course (i.e. introducing CI and autowiring.. etc).
 
 # Installation
 First off, you need to verify if you have Docker installed by running this command in your console.
